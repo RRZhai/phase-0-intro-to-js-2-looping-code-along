@@ -13,6 +13,7 @@ describe( 'index.js', () => {
     spy.restore();
   } );
 
+
   describe( 'writeCards()', () => {
 
     it( 'returns an array of thank you messages for each name provided to the function', () => {
